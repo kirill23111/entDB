@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS persons (
+    name VARCHAR(100) NOT NULL,
+    surname VARCHAR(100) NOT NULL,
+    age INT NOT NULL,
+    phone_number VARCHAR(30),
+    city_of_living VARCHAR(100),
+    PRIMARY KEY (name, surname, age)
+);
